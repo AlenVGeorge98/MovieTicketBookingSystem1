@@ -74,7 +74,7 @@ int view_movies();
 *  Function for users to book movie tickets
 * @param[in] movie
 * @param[in] seat
-* @return Ticket for the movie containing the details of the show as well as the user
+* @return Status of the booking, according to the input given.
 */
 char *book_tickets(char*movie, int seat);
 
