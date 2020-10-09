@@ -2,7 +2,7 @@
 
 ## Functional Requirements
 
-|Functional Requirement|Description|
+|Functional Requirement Number|Description|
 |----------------------|-----------|
 |FR1|The system shall allow the admin to login|
 |FR2|The admin shall be able to add movie details|
