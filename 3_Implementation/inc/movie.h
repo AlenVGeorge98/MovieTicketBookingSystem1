@@ -27,6 +27,7 @@ extern struct movie_details m;
 * @return '1' if login is successful, '0' if not.
 */
 int admin_login(char *admin_username, char *admin_password);
+
 /**
 *  Function for admin to add movies
 * @param[in] movie_code
@@ -37,8 +38,8 @@ int admin_login(char *admin_username, char *admin_password);
 * @param[in] seats
 * @return "Movie Details Added Successfully" if the details are successfully stored in file.
 */
-
 char* add_movies(int movie_code, char *movie_name, char *show_timing, char *release_date, int ticket_price, int seats);
+
 /**
 *  Function for registration of new users
 * @param[in] fullname
@@ -54,8 +55,6 @@ char* user_reg(char *fullname, char*username, char *password, char*mobile_no);
 * @return '0' if all bookings are displayed along with summary
 */
 int view_bookings();
-
-
 
 /**
 *  Function for login of existing users
