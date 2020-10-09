@@ -59,7 +59,7 @@ int view_bookings();
 /**
 *  Function for login of existing users
 * @param[in] username
-* @param[in] username
+* @param[in] password
 * @return Pass/Fail status of user login
 */
 char* user_login(char *username, char *password);
